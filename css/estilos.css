@@ -6,8 +6,12 @@
 
 }
 
+body {
+	margin: 3px;
+}
+
 nav, header {
-	background: #01df3a;
+	background: #006600;
 	display: inline-block;
 }
 header{
@@ -45,12 +49,12 @@ a{
 }
 
 footer {
-	background: #01df3a;
+	background: #006600;
 }
 
 .mapa {
 	margin: 10px;
-	margin-top: 12px;
+	margin-top: 10px;
 	display: inline-block;
 }
 
@@ -61,6 +65,9 @@ footer {
 
 .social {
 		display: inline-block;
+		float: right;
+		margin-top: 6em;
+		margin-right: 3.5em;
 }
 
 .adaptar {

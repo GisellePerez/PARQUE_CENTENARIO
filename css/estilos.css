@@ -21,11 +21,15 @@ nav {
 	float: right;
 	margin-right: 2em;
 	margin-top: 1.5em;
+	word-spacing: 4px;
 }
+
+
 h1 {
 	display: inline-block;
 	color: white;
 	margin-left: 1em;
+
 }
 
 a{
@@ -53,8 +57,9 @@ footer {
 }
 
 .mapa {
-	margin: 10px;
+	margin: 5px;
 	margin-top: 10px;
+	margin-left: 10px;
 	display: inline-block;
 }
 

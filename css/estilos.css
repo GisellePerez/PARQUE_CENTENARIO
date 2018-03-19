@@ -84,8 +84,8 @@ footer {
 
 @media (max-width:480px) {
 	.foto {
-		height:235px;
-		width: 235px;
+		height:230px;
+		width: 230px;
 		margin-left: 1em;
 	}
 
@@ -105,9 +105,18 @@ footer {
 	}
 
 	.mapa iframe {
-		width: 80px;
+		display: block;
+		width: 130%;
 		margin:1em;
+
+	}
+
+	.social a {
+		float: none;
+		margin-right: 4em;
+		margin-left: 2em
+		margin-bottom:2em;
+		margin-top: 1em;
 	}
 
 }
-

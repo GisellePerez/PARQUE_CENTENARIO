@@ -20,7 +20,7 @@ header{
 nav {
 	float: right;
 	margin-right: 2em;
-	margin-top: 1.5em;
+	margin-top: 2em;
 	word-spacing: 4px;
 }
 
@@ -29,7 +29,7 @@ h1 {
 	display: inline-block;
 	color: white;
 	margin-left: 1em;
-
+	margin-bottom: 0.5em;
 }
 
 a{

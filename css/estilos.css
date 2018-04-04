@@ -13,16 +13,17 @@ nav, header {
 	background: #477443;
 	display: inline-block;
 }
+
 header{
 	width: 100%;
 }
+
 nav {
 	float: right;
 	margin-right: 2em;
 	margin-top: 2em;
 	word-spacing: 4px;
 }
-
 
 h1 {
 	display: inline-block;
@@ -35,6 +36,7 @@ a{
 	text-decoration: none;
 	color: white;
 }
+
 .foto {
 	height :300px;
 	width:300px;
@@ -44,9 +46,10 @@ a{
 	width: 100%;
 }
 
-
 .row-banner{
 	width: 100%;
+	/* margin-left: 4.5em;
+	margin-top: 1em;*/
 	margin-bottom: 1em;
 }
 
@@ -58,6 +61,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 }
 
 .mapa {
@@ -98,19 +102,13 @@ footer {
 		margin: 1em;
 		margin-bottom: 2em;
 		padding-bottom: 1em;}
-
-	.mapa iframe {
-		display: block;
-		width: auto;
-		margin:1em;
+	footer {
+		height: auto;
+		flex-direction: column;
+		justify-content: center;
 	}
-
-	.social a {
-		float: none;
-		margin-right: 4em;
-		margin-left: 2em
-		margin-bottom:2em;
-		margin-top: 1em;
+	.mapa {
+		width: 100%;
 	}
 
 }

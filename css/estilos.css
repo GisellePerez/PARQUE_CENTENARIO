@@ -2,9 +2,7 @@
 	margin: 0;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-}
+    box-sizing: border-box;}
 
 body {
 	margin: 3px;
@@ -47,43 +45,38 @@ a{
 }
 
 
-.banner{
-	/* margin-left: 4.5em;
-	margin-top: 1em;*/
+.row-banner{
+	width: 100%;
 	margin-bottom: 1em;
 }
 
 footer {
+	width: 100%;
+	height: 200px;
 	background: #477443;
 	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-p {
-	margin-top: 5px;
-}
 .mapa {
-	margin: 5px;
-	margin-top: 10px;
-	margin-left: 10px;
-	display: inline-block;
+	width: 80%;
+	height: 100%;
+	padding: 10px;
 }
-
-#redes {
-	width: 50px;
-	height: 50px;
-	}
-
 .social {
-		display: inline-block;
-		float: right;
-		margin-top: 6em;
-		margin-right: 3.4em;
+	padding: 30px;
+	text-align: center;
+}
+.social a {
+	font-size: 40px;
+	text-decoration: none;
+}
+.social a:hover {
+	color: #add6ad;
 }
 
-.adaptar {
-	width: 100%;
-	
-}
 
 /* 	queries  */
 
@@ -97,7 +90,6 @@ p {
 	nav {
 		margin-top: 0;
 		font-size: 20px
-	
 	}
 
 	nav a {
@@ -105,15 +97,12 @@ p {
 		padding-top: 1em;
 		margin: 1em;
 		margin-bottom: 2em;
-		padding-bottom: 1em;
-
-	}
+		padding-bottom: 1em;}
 
 	.mapa iframe {
 		display: block;
-		width: 130%;
+		width: auto;
 		margin:1em;
-
 	}
 
 	.social a {
